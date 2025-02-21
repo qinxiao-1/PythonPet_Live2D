@@ -11,3 +11,7 @@ hibiki_v2 = r".\Resources\V2\hibiki\hibiki.model.json"
 kasumi2_v2 = r".\Resources\V2\kasumi2\kasumi2.model.json"
 
 Hiyori_v3 = r".\Resources\V3\Hiyori\Hiyori.model3.json"
+
+# Open Ai
+OpenAIKey = '1'
+OpenAIUrl = "http://61.157.13.79:11434/v1"

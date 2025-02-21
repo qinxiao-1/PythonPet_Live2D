@@ -2,7 +2,6 @@ import wave
 import numpy as np
 import time
 
-
 class WavHandler:
     def __init__(self):
         # 每个通道的采样帧数

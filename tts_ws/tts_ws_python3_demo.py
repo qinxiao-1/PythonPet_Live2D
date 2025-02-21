@@ -166,7 +166,7 @@ class kdxf_tts:
         print(Text)
         print(self.wsParam.Text)
         self.on_finish = on_finish
-        websocket.enableTrace(False)
+        # websocket.enableTrace(False)
         wsUrl = self.wsParam.create_url()
         ws = websocket.WebSocketApp(wsUrl, on_message=self.on_message, on_error=self.on_error, on_close=self.on_close)
         ws.on_open = self.on_open
